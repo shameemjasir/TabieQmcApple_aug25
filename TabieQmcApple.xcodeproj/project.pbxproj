@@ -11,6 +11,10 @@
 		1DEA06B72C5F64A100F4C13D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA06B62C5F64A100F4C13D /* ContentView.swift */; };
 		1DEA06B92C5F64A200F4C13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA06B82C5F64A200F4C13D /* Assets.xcassets */; };
 		1DEA06BC2C5F64A200F4C13D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA06BB2C5F64A200F4C13D /* Preview Assets.xcassets */; };
+		1DEA06C92C5F65ED00F4C13D /* TabieQmcTvosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA06C82C5F65ED00F4C13D /* TabieQmcTvosApp.swift */; };
+		1DEA06CB2C5F65ED00F4C13D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA06CA2C5F65ED00F4C13D /* ContentView.swift */; };
+		1DEA06CD2C5F65ED00F4C13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA06CC2C5F65ED00F4C13D /* Assets.xcassets */; };
+		1DEA06D02C5F65ED00F4C13D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA06CF2C5F65ED00F4C13D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,10 +23,22 @@
 		1DEA06B62C5F64A100F4C13D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DEA06B82C5F64A200F4C13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DEA06BB2C5F64A200F4C13D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DEA06C62C5F65ED00F4C13D /* TabieQmcTvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabieQmcTvos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEA06C82C5F65ED00F4C13D /* TabieQmcTvosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabieQmcTvosApp.swift; sourceTree = "<group>"; };
+		1DEA06CA2C5F65ED00F4C13D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DEA06CC2C5F65ED00F4C13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DEA06CF2C5F65ED00F4C13D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1DEA06AE2C5F64A100F4C13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEA06C32C5F65ED00F4C13D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				1DEA06B32C5F64A100F4C13D /* TabieQmcApple */,
+				1DEA06C72C5F65ED00F4C13D /* TabieQmcTvos */,
 				1DEA06B22C5F64A100F4C13D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				1DEA06B12C5F64A100F4C13D /* TabieQmcApple.app */,
+				1DEA06C62C5F65ED00F4C13D /* TabieQmcTvos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +81,25 @@
 			isa = PBXGroup;
 			children = (
 				1DEA06BB2C5F64A200F4C13D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DEA06C72C5F65ED00F4C13D /* TabieQmcTvos */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA06C82C5F65ED00F4C13D /* TabieQmcTvosApp.swift */,
+				1DEA06CA2C5F65ED00F4C13D /* ContentView.swift */,
+				1DEA06CC2C5F65ED00F4C13D /* Assets.xcassets */,
+				1DEA06CE2C5F65ED00F4C13D /* Preview Content */,
+			);
+			path = TabieQmcTvos;
+			sourceTree = "<group>";
+		};
+		1DEA06CE2C5F65ED00F4C13D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA06CF2C5F65ED00F4C13D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -87,6 +124,23 @@
 			productReference = 1DEA06B12C5F64A100F4C13D /* TabieQmcApple.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1DEA06C52C5F65ED00F4C13D /* TabieQmcTvos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEA06D12C5F65ED00F4C13D /* Build configuration list for PBXNativeTarget "TabieQmcTvos" */;
+			buildPhases = (
+				1DEA06C22C5F65ED00F4C13D /* Sources */,
+				1DEA06C32C5F65ED00F4C13D /* Frameworks */,
+				1DEA06C42C5F65ED00F4C13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabieQmcTvos;
+			productName = TabieQmcTvos;
+			productReference = 1DEA06C62C5F65ED00F4C13D /* TabieQmcTvos.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +152,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					1DEA06B02C5F64A100F4C13D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1DEA06C52C5F65ED00F4C13D = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -116,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				1DEA06B02C5F64A100F4C13D /* TabieQmcApple */,
+				1DEA06C52C5F65ED00F4C13D /* TabieQmcTvos */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +188,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1DEA06C42C5F65ED00F4C13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEA06D02C5F65ED00F4C13D /* Preview Assets.xcassets in Resources */,
+				1DEA06CD2C5F65ED00F4C13D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,6 +206,15 @@
 			files = (
 				1DEA06B72C5F64A100F4C13D /* ContentView.swift in Sources */,
 				1DEA06B52C5F64A100F4C13D /* TabieQmcAppleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEA06C22C5F65ED00F4C13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEA06CB2C5F65ED00F4C13D /* ContentView.swift in Sources */,
+				1DEA06C92C5F65ED00F4C13D /* TabieQmcTvosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +353,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,9 +361,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "qa.qmc.tabie-apple.TabieQmcApple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
+				TARGETED_DEVICE_FAMILY = "2,3,7";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
@@ -303,6 +384,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,9 +392,67 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "qa.qmc.tabie-apple.TabieQmcApple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,3,7";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		1DEA06D22C5F65ED00F4C13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabieQmcTvos/Preview Content\"";
+				DEVELOPMENT_TEAM = H8V78YFFQ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qa.qmc.tabie-apple.TabieQmcTvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		1DEA06D32C5F65ED00F4C13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabieQmcTvos/Preview Content\"";
+				DEVELOPMENT_TEAM = H8V78YFFQ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qa.qmc.tabie-apple.TabieQmcTvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
 			};
 			name = Release;
 		};
@@ -333,6 +473,15 @@
 			buildConfigurations = (
 				1DEA06C02C5F64A200F4C13D /* Debug */,
 				1DEA06C12C5F64A200F4C13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEA06D12C5F65ED00F4C13D /* Build configuration list for PBXNativeTarget "TabieQmcTvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEA06D22C5F65ED00F4C13D /* Debug */,
+				1DEA06D32C5F65ED00F4C13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
