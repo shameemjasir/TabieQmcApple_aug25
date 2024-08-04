@@ -88,6 +88,10 @@
 		1DEA06C72C5F65ED00F4C13D /* TabieQmcTvos */ = {
 			isa = PBXGroup;
 			children = (
+				1DEA06D72C5F66AD00F4C13D /* Services */,
+				1DEA06D42C5F666100F4C13D /* Models */,
+				1DEA06D52C5F666F00F4C13D /* Views */,
+				1DEA06D62C5F667B00F4C13D /* Controls */,
 				1DEA06C82C5F65ED00F4C13D /* TabieQmcTvosApp.swift */,
 				1DEA06CA2C5F65ED00F4C13D /* ContentView.swift */,
 				1DEA06CC2C5F65ED00F4C13D /* Assets.xcassets */,
@@ -102,6 +106,34 @@
 				1DEA06CF2C5F65ED00F4C13D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DEA06D42C5F666100F4C13D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DEA06D52C5F666F00F4C13D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DEA06D62C5F667B00F4C13D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		1DEA06D72C5F66AD00F4C13D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
